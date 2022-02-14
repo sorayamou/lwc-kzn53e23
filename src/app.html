@@ -1,0 +1,35 @@
+<template>
+	<lightning-card>
+		<div class="slds-m-around_medium" if:true={visible}>
+		<b><h1 class="slds-text-heading_large" style="text-align: center;">
+			</h1></b>
+		
+
+	<h1  class="slds-text-heading_medium" >
+		<br/><b>Trazer dados da classe</b>
+	<p>
+			<br/>	Codigo:{codigo}
+	</p>
+	<p>
+		<br/>	Nome:{nome}
+	</p>
+	<p>
+			Telefone: {telefone}
+	</p>
+	<p>
+				Email: {email}
+	</p>
+	<p>
+				Rating: {rating}
+	</p>
+	</h1>
+	</div>
+
+
+			<lightning-button variant="brand" label="Alterar Valor" title="Alterar valor" onclick={alterarValores}
+			class="slds-m-left_x-small">
+			</lightning-button>
+
+	</lightning-card>
+
+</template>
